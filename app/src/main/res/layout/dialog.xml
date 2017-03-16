@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/x10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字体大小"/>
+    <SeekBar
+        android:id="@+id/txtSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="45"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="屏幕亮度"/>
+    <SeekBar
+        android:id="@+id/lightSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="150"
+        android:max="255"
+        />
+
+</LinearLayout>
